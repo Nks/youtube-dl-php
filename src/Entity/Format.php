@@ -8,7 +8,7 @@ class Format extends AbstractEntity
 {
     public function getFormat(): ?string
     {
-        return $this->get('format');
+        return $this->get('format_id');
     }
 
     public function getUrl(): ?string
